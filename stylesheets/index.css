@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.title-text,
+.nav,
+.secondary-text,
+
+.hero-image{
+    color: white;
+    background: black;
+    font-family: 'Press Start 2P', cursive;
+}
+.title-text{
+    font-size: 16px
+}
+
+.nav {
+    padding: 0; 
+    font-size: 13px;
+    float: right;
+}
+
+top.bar{
+
+}
+.top-bar .tittle-text,
+.top-bar .nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline;
+    padding-left: 8px 
+}
+
+.hero-image{
+    background-image: url(../images/buildings.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.secondary-text{
+    font-size: 12px;
+    font-style: italic;
+    text-shadow: 3px 5px 2px #474747;
+}
